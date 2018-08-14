@@ -1,0 +1,55 @@
+.Form {
+    width: 300px;
+    /*height: 300px;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 20px;
+    /*color: #DAA520;*/
+
+    color: white;
+
+
+}
+
+.Form button{
+    /*background-color: #DAA520;*/
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px ;
+}
+
+.Form div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column ;
+}
+.Form div > * {
+    margin-bottom: 10px;
+}
+.Form div :nth-child(2n) {
+    background-color: #3CBC8D;
+    color: white;
+    width: 340px;
+    height: 30px;
+}
+
+.Form div :nth-child(2n):focus {
+    border: 1px solid #555;
+    background-color: lightblue;
+
+}
+
+.Title {
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 40px;
+}

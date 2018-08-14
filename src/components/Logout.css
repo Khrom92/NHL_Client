@@ -1,0 +1,13 @@
+.Logout button {
+    /*background-color: #DAA520;*/
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px ;
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+    font-family: 'Arvo', serif;
+}

@@ -1,0 +1,92 @@
+.Profile {
+    @import url('https://fonts.googleapis.com/css?family=Arvo');
+    font-family: 'Arvo', serif;
+    width:100%;
+    height: 50%;
+    background-color: gainsboro;
+    color: black;
+    /*margin-top: 50px;*/
+    border-top: #222222 solid 5px;
+    border-bottom: #222222 solid 5px;
+
+}
+.Profile-header {
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    border-bottom: #555555 solid 1px;
+
+}
+
+.Header-logo {
+    width: 20%;
+    box-sizing: border-box;
+    padding-top: 10px;
+
+}
+
+.NHL-logo {
+    /*animation: NHL-logo-spin infinite 20s linear;*/
+    /*animation: NHL-logo-spin infinite 0.5s ease-in;*/
+    height: 80px;
+}
+
+@keyframes NHL-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(2deg); }
+}
+
+
+
+.Header-name {
+    /*height: 20%;*/
+    width: 60%;
+    text-align: start;
+    /*box-sizing: border-box;*/
+    /*padding: 20px 100px 0px 0px;*/
+}
+
+.Header-edit {
+    width: 20%;
+}
+.Edit-link {
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    /*color: #FF8C00	;*/
+    color: whitesmoke;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.Edit-link:hover {
+    color: #222222;
+    background-color: yellow;
+}
+
+.Stat {
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.Stat span {
+    display: block;
+}
+.UserStat {
+    text-align: center;
+    width: 50%;
+    border-right: #555555 solid 1px;
+}
+.FavTeamStat {
+    width: 50%;
+
+}

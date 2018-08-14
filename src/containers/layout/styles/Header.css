@@ -1,0 +1,46 @@
+.Header {
+    /*background-color: #222;*/
+    background-color: rgb(51, 51, 51);
+    height: inherit;
+    padding: 10px;
+    color: white;
+    @import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+    font-family: 'Hanalei Fill', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+.Header-login {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.Header-link:hover {
+    color: darkturquoise;
+}
+.Header-nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+.Header-nav li  {
+    list-style-type: none;
+    /*margin: 15px;*/
+
+}
+
+.Header-link {
+    text-decoration: none;
+    font-size: 30px;
+    /*color: #FF8C00	;*/
+    color: whitesmoke;
+    padding-top: 7px;
+    box-sizing: border-box;
+}
+
+
+
