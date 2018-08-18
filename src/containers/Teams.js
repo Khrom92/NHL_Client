@@ -4,7 +4,7 @@ import request from '../utils/request';
 export default class Teams extends Component {
     submit = () => {
 
-        request.get(`/player/`)
+        request.get(`/NHLTeams/stats/15`)
             .then(res => {
 
                 console.log(JSON.stringify(res.data));

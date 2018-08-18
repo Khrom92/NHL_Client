@@ -1,0 +1,36 @@
+.Wrapper {
+    width: 70%;
+    height: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.Home {
+    width: 50%;
+    border-right: #555555 solid 1px;
+}
+
+.Guest {
+    text-align: center;
+    width: 50%;
+}
+
+.Match {
+    width: 300px;
+    /*height: 300px;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill');
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 20px;
+    /*color: #DAA520;*/
+    color: white;
+
+
+}
