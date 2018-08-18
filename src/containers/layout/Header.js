@@ -14,7 +14,7 @@ class Header extends Component {
         return (
             <header className='Header'>
                 <div className='Header-nav'>
-                    <Link to='/Teams' className='Header-link'>Teams</Link>
+                    <Link to='/Game' className='Header-link'>Games</Link>
                 </div>
                 {loginReducer.auth ?
                     <div className='Header-login'>

@@ -19,7 +19,7 @@ export function loginSubmit(values) {
             .then((data) => {
                 console.log(data);
                 localStorage.setItem('token', data.data.token);
-                dispatch(userLogin(data.data.token))
+                dispatch(userLogin(data.data.playerId))
             })
             .catch(error => console.error(error));
 

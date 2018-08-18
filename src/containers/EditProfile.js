@@ -36,7 +36,7 @@ let EditFormComponent = props => {
                 <Field name="teamId" component="select">
                     <option></option>
                     {
-                        StatReducer.teams.rows && StatReducer.teams.rows.map( team => (
+                        StatReducer.teams && StatReducer.teams.map( team => (
                         <option key={team.id} value={ Number(team.id) }>{team.name}</option>))
                     }
 
@@ -71,7 +71,6 @@ class EditProfile extends React.Component {
     };
 
     render() {
-        const { StatReducer } = this.props;
         return <div>
             <Link to='/Profile/edit' className='Header-link'>{'< Back'}</Link>
             <EditForm {...this.props}  onSubmit={this.handleSubmit}/>

@@ -1,5 +1,6 @@
 import { Switch, Route } from 'react-router-dom'
 import Profile from "../Profile";
+import Game from "../Game";
 import Registration from "../Registration";
 import Teams from "../Teams";
 import LogIn from "../LogIn";
@@ -16,6 +17,7 @@ export default class Main extends Component {
             <main style={{height: '100%'}}>
                 <Switch>
                     <Route path='/Profile' component={Profile}/>
+                    <Route path='/Game' component={Game}/>
 
                     <Route path='/Edit' component={EditProfile}/>
 
